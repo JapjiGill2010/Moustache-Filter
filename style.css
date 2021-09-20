@@ -1,0 +1,26 @@
+.btn-success:hover{
+    background-color: rgb(255, 154, 154);
+}
+body{
+    background-image: url('Background\ img.jpg');
+    background-size: contain;
+}
+canvas{
+    animation-name: change_shadow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes change_shadow{
+    from {box-shadow: 1px 1px 30px rgb(255, 146, 146);}
+    to {box-shadow: 1px 1px 30px rgb(255, 253, 146);}
+}
+button{
+    background-color: #c681ff;
+}
+h3{
+    background-color: rgb(170, 231, 255) !important;
+}
+.btn-success{
+    background-color: rgb(130, 236, 148);
+}
